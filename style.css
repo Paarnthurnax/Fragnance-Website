@@ -1,0 +1,165 @@
+/* Alap stílusok */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #004c97;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Kép megformázása */
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Leírás */
+.product-description {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.product-description h2 {
+    color: #004c97;
+    margin-bottom: 15px;
+}
+
+/* Illatjegyek */
+/* Illatjegyek */
+/* Illatjegyek */
+.notes {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.notes h2 {
+    color: #004c97;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Fejjegy, Szívjegy, Alapjegy középre */
+.notes h3 {
+    color: #004c97;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center; /* Középre igazítva */
+}
+
+/* Illatjegyek listája */
+.notes ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.notes li {
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 1.1em;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+    width: auto;
+    max-width: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effektus */
+.notes li:hover {
+    transform: scale(1.05);
+}
+
+/* Különböző illatjegyek színei */
+.notes li span {
+    font-weight: bold;
+}
+
+/* Színek az illatjegyekhez */
+.notes li:nth-child(1) span { color: #ffcc00; }  /* Citrom: Sárga */
+.notes li:nth-child(2) span { color: #8b4513; }  /* Fahéj: Barna */
+.notes li:nth-child(3) span { color: #98fb98; }  /* Mentha: Zöld */
+.notes li:nth-child(4) span { color: #ffffff; background-color: #ffb6c1; }  /* Jázmin: Fehér (rózsaszín háttér) */
+.notes li:nth-child(5) span { color: #f5deb3; }  /* Vanília: Krémes sárga */
+.notes li:nth-child(6) span { color: #6b4226; }  /* Tonka bab: Sötétbarna */
+.notes li:nth-child(7) span { color: #8b4513; }  /* Antik fa: Tölgybarna */
+
+
+
+/* Vásárlási linkek */
+.buy-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.buy-links h2 {
+    font-size: 1.8em;
+    color: #004c97;
+    margin-bottom: 20px;
+}
+
+.buy-links a {
+    color: #004c97;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 10px 0;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #004c97;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buy-links a:hover {
+    background-color: #004c97;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #888;
+}
